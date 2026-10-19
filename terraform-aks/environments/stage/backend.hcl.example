@@ -1,0 +1,4 @@
+resource_group_name  = "rg-aks-demo-tfstate"
+storage_account_name = "<storage-account-name-from-bootstrap-output>"
+container_name       = "tfstate"
+key                  = "stage/terraform.tfstate"

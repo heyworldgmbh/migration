@@ -1,0 +1,16 @@
+.terragrunt-cache/
+**/.terragrunt-cache/*
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+backend.tf
+provider.tf
+versions.tf
+crash.log
+crash.*.log
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
